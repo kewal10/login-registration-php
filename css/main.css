@@ -1,0 +1,200 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,400,700';
+
+/*
+  All pages
+  --------------------------------------------------
+*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-top: 200px;
+    outline: none !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /*  background-color: #F1F1F1;    */
+}
+
+.cp-links {
+    height: 50px;
+    display: inline-block;
+}
+
+a.focus, a.visited {
+    outline: none;
+}
+
+a:focus, a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.scrolloff {
+    pointer-events: none;
+}
+
+.comp-container {
+    margin: 60px auto 100px auto;
+}
+
+.help-login a{
+    color: #4a4545;
+    text-decoration: none;
+}
+
+.mtf {
+    margin-bottom: 280px;
+}
+
+/*
+  Typography
+  --------------------------------------------------
+*/
+
+body, h1, h2, h4, h4, h5, h6, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-size: 17px;
+}
+
+/*
+  Nav Bar
+  --------------------------------------------------
+*/
+
+.navbar-default {
+    background-color: #385fb2;
+    border: none;
+    box-shadow: none;
+    padding: 10px;
+}
+
+.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, .8);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-size: 26px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+a.nav-link {
+    color: rgba(255, 255, 255, .8) !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav .nav-link:focus, .navbar-default .navbar-nav .nav-link:hover {
+    color: #FFFFFF !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #FFFFFF !important;
+    background-color: transparent;
+}
+
+
+
+
+
+/*
+  Sign Up
+  --------------------------------------------------
+*/
+
+.u-form {
+    margin-top: 60px;
+}
+
+.c-a-a {
+    margin-bottom: 0;
+}
+
+.form-control {
+    height: 46px;
+    border-radius: 0;
+    border: 1px solid #3260c2;
+    box-shadow: none;
+    color: #000;
+    background-color: rgba(239, 239, 239, .4);
+    padding: 6px 16px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #3260c2;
+    background-color: #FFFFFF;
+    outline: none !important;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border-bottom: 1px solid #3260c2;
+    height: 40px;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #3260c2;
+    height: 58px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 0;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.btn-default:hover, .btn-default.focus, .btn-default:focus {
+    color: #3260c2;
+    background-color: transparent;
+    border-color: #3260c2;
+    outline: none;
+    box-shadow: none;
+}
+
+.has-error .form-control:focus {
+    border-color: #a94442;
+    box-shadow: none;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 8px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: -20px;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
